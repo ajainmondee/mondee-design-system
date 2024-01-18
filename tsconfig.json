@@ -18,6 +18,11 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "paths": {
+      "system-design-library": [
+        "dist/system-design-library"
+      ]
+    },
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
