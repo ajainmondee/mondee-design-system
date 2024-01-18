@@ -1,6 +1,10 @@
 {
-  "name": "mondee-design-system",
+  "name": "@ajainmondee/mondee-design-system",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajainmondee/mondee-design-system.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +12,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
